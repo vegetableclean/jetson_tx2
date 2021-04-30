@@ -1,0 +1,8 @@
+#open fan
+
+sudo /home/ubuntu/jetson_clocks.sh
+
+#high frequence 
+
+sudo nvpmodel -m 0
+

@@ -1,0 +1,25 @@
+# contest demo 
+
+#face tracing
+ cd Desktop
+
+cd jetson_tx2
+
+sudo -s
+
+python3 face_tracing_OK.py # face tracing 
+
+
+#gender recognition
+
+#open Motion 
+
+sudo service motion start 
+#connect IP to PC
+
+
+#detect temperature 
+python3 receive_arduino.py
+
+### python gender_demo.py  
+# inside gender recognition failure
